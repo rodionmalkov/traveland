@@ -1,0 +1,40 @@
+.menu {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  right: 0;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__btn {
+    width: 163px;
+    height: 51px;
+  }
+}
+
+// Adaptive
+
+@media (max-width: 1300px) {
+  .menu {
+    padding: 0;
+  }
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 414px) {
+  .menu {
+    flex-direction: column;
+    gap: 30px;
+    &__btn {
+      width: 163px;
+      height: 51px;
+    }
+  }
+}

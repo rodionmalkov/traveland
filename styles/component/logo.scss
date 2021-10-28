@@ -1,0 +1,15 @@
+.logo {
+  font-family: Ribeye, "Roboto", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  color: var(--white);
+}
+
+@media (max-width: 414px) {
+  .logo {
+    font-size: 48px;
+  }
+}

@@ -1,0 +1,31 @@
+@import "./global.scss";
+
+@import "./extra/container.scss";
+@import "./extra/fonts.scss";
+@import "./extra/variables.scss";
+
+@import "./component/button.scss";
+@import "./component/logo.scss";
+
+@import "./component/header.scss";
+@import "./component/menu.scss";
+@import "./component/nav.scss";
+@import "./component/content.scss";
+@import "./component/popular.scss";
+
+@import "./component/burger.scss";
+@import "./component/section-header.scss";
+
+// Adaptive
+
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 414px) {
+}

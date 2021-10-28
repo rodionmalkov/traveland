@@ -1,0 +1,13 @@
+.--container {
+  position: relative;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+// Adaptive
+
+@media (max-width: 1200px) {
+  .--container {
+    max-width: 90%;
+  }
+}
