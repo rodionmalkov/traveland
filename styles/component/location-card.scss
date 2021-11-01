@@ -1,0 +1,92 @@
+.location-card {
+  &__photo {
+    max-width: 263px;
+    height: 173px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 21px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__info {
+    margin-bottom: 6px;
+  }
+
+  &__name {
+    font-family: "Gelasio", "Roboto", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 8px;
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 53px;
+    align-items: center;
+  }
+
+  &__left,
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon-loc {
+    width: 20px;
+    height: 20px;
+    background: url("../img/icons/location.svg") 0 2px no-repeat;
+  }
+
+  &__country {
+    font-size: 20px;
+    line-height: 150%;
+    opacity: 0.6;
+  }
+
+  &__icon-star {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icons/star.svg) 50% 50% no-repeat;
+  }
+
+  &__rating {
+    font-size: 18px;
+    line-height: 150%;
+    padding-left: 12px;
+  }
+
+  &__period {
+    margin-bottom: 8px;
+  }
+
+  &__price {
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 8px;
+  }
+
+  &__period,
+  &__person {
+    font-size: 16px;
+    opacity: 0.6;
+  }
+}
+
+// Adaptive
+@media (max-width: 1599px) {
+  .location-card {
+    &__photo {
+      min-width: 263px;
+      height: 173px;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 21px;
+    }
+  }
+}

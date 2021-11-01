@@ -12,12 +12,18 @@
 @import "./component/nav.scss";
 @import "./component/content.scss";
 @import "./component/popular.scss";
-
+@import "./component/location-card.scss";
+@import "./component/special.scss";
+@import "./component/footer.scss";
 @import "./component/burger.scss";
 @import "./component/section-header.scss";
+@import "./component/slider.scss";
+@import "./component/slider-control.scss";
+@import "./component/news.scss";
+@import "./component/social.scss";
+@import "./component/sub-form.scss";
 
 // Adaptive
-
 @media (max-width: 1300px) {
 }
 

@@ -1,0 +1,26 @@
+.special {
+  max-width: 1600px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (max-width: 1599px) {
+  .special {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .special {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 414px) {
+}

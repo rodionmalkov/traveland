@@ -3,7 +3,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-left: 10px;
   }
 
   &__item {
@@ -67,6 +66,26 @@
   .popular {
     &__list {
       justify-content: space-evenly;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .popular {
+    &__info {
+      padding: 25px 5px;
+    }
+
+    &__item {
+      width: 100%;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__desc {
+      font-size: 18px;
     }
   }
 }
