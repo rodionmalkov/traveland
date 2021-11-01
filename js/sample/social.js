@@ -20,3 +20,5 @@ const socialLinks = [
     icon: "./img/icons/social-google.jpg",
   },
 ];
+
+export default socialLinks;

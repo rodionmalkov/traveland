@@ -3,5 +3,3 @@ import "./component/burger.js";
 import "./component/subcription.js";
 import "./component/swiper.js";
 import "./component/social-link.js";
-
-import "./sample/social.js";
