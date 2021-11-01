@@ -23,5 +23,4 @@ const socialList = document.querySelector(".social__list");
 for (let i = 0; i < socialLinks.length; i++) {
   let cardItem = makeSocialItem(socialLinks[i]);
   socialList.appendChild(cardItem);
-  console.log(socialLinks[i]);
 }
