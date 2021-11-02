@@ -1,4 +1,4 @@
-# traveland
+# Info
 
 * **Resume:**
 * **Download portfolio:** https://drive.google.com/drive/folders/1KRrf5KCEYQSA5kpq0YvVWTn2BHO_W32D?usp=sharing
