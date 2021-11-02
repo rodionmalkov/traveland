@@ -5,3 +5,4 @@
 
 * **Figma project:** https://www.figma.com/file/WUrPGnWNqrRNd0Ook6r38y/Traveland-Copy
 * **Github-page:** https://rodionmalkov.github.io/traveland/index.html
+* **PerfectPixel**
