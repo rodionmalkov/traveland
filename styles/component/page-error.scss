@@ -1,0 +1,24 @@
+.page-error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  margin: 0 auto;
+
+  &__img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__btn {
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--blue);
+  }
+
+  &__btn:hover {
+    background-color: var(--blue-hover);
+  }
+}

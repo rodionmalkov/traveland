@@ -15,9 +15,10 @@ const makeSwiperItem = (card) => {
   cardPopUpBg.alt = card.location;
   cardPopUp.appendChild(cardPopUpBg);
 
-  const cardPopUpBtn = makeElement("button", "location-card__popup-btn");
+  const cardPopUpBtn = makeElement("a", "location-card__popup-btn");
   cardPopUpBtn.classList.add("button");
   cardPopUpBtn.textContent = "Explore more";
+  cardPopUpBtn.href = "blank.html";
   cardPopUp.appendChild(cardPopUpBtn);
 
   const cardPhotoWrapper = makeElement("div", "location-card__photo");

@@ -57,7 +57,7 @@ const alltrips = [
     id: 7,
     location: "The Charles Bridge",
     photo: "./img/content/the-charles-bridge.jpg",
-    country: "Czech Republic",
+    country: "Czech Rep.",
     rating: 4.9,
     period: "4 Day 5 Nights",
     price: 600,
