@@ -4,7 +4,6 @@ const subForm = document.querySelector(".sub-form");
 const emailInput = subForm.querySelector(".sub-form__email");
 const buttonSubForm = subForm.querySelector(".sub-form__btn");
 const subFormContainer = subForm.querySelector(".sub-form__container");
-const placeholderError = subForm.querySelector(".sub-form__error");
 
 buttonSubForm.addEventListener("click", (evt) => {
   evt.preventDefault();

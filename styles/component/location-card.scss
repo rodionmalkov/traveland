@@ -1,4 +1,6 @@
 .location-card {
+  position: relative;
+
   &__photo {
     max-width: 263px;
     height: 173px;
@@ -11,6 +13,7 @@
     width: 100%;
     min-height: 100%;
     object-fit: cover;
+    transition: linear 3s;
   }
 
   &__info {
@@ -78,6 +81,43 @@
     font-size: 16px;
     opacity: 0.6;
   }
+
+  &__popup {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: none;
+    overflow: hidden;
+    animation: card-transition 800ms;
+  }
+
+  :hover > &__popup {
+    display: block;
+  }
+
+  &__popup-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 50s;
+  }
+
+  :hover > &__popup-img {
+    transform: scale(2);
+  }
+
+  &__popup-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 44px;
+  }
 }
 
 // Adaptive
@@ -90,5 +130,15 @@
       overflow: hidden;
       margin-bottom: 21px;
     }
+  }
+}
+
+@keyframes card-transition {
+  0% {
+    height: 173px;
+  }
+
+  100% {
+    height: 100%;
   }
 }

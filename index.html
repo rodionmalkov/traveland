@@ -21,7 +21,7 @@
             <a class="nav__item" href="#">About</a>
             <a class="nav__item" href="#">Contact</a>
           </nav>
-          <button class="menu__btn button">Booking now</button>
+          <button class="menu__btn button button-booking">Booking now</button>
         </div>
         <div class="header__conainter">
           <span class="header__title"
@@ -33,7 +33,9 @@
             also according to a common belief if you have a great<br />
             start to your.
           </p>
-          <button class="header__btn button">Explore more</button>
+          <button class="header__btn button button-booking">
+            Explore more
+          </button>
         </div>
       </div>
     </header>
@@ -234,6 +236,8 @@
                 id="email"
                 name="email"
                 placeholder="Email"
+                pattern=".+@globex\.com"
+                required
               />
               <button class="sub-form__btn button">Send</button>
             </div>

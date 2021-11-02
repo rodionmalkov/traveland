@@ -7,6 +7,19 @@ const makeSwiperItem = (card) => {
   const swiperCard = makeElement("div", "location-card");
   swiperItem.appendChild(swiperCard);
 
+  const cardPopUp = makeElement("div", "location-card__popup");
+  swiperCard.appendChild(cardPopUp);
+
+  const cardPopUpBg = makeElement("img", "location-card__popup-img");
+  cardPopUpBg.src = card.photo;
+  cardPopUpBg.alt = card.location;
+  cardPopUp.appendChild(cardPopUpBg);
+
+  const cardPopUpBtn = makeElement("button", "location-card__popup-btn");
+  cardPopUpBtn.classList.add("button");
+  cardPopUpBtn.textContent = "Explore more";
+  cardPopUp.appendChild(cardPopUpBtn);
+
   const cardPhotoWrapper = makeElement("div", "location-card__photo");
   swiperCard.appendChild(cardPhotoWrapper);
 
@@ -22,6 +35,7 @@ const makeSwiperItem = (card) => {
   cardDescWrapper.appendChild(cardInfo);
 
   const cardName = makeElement("p", "location-card__name");
+  cardName.textContent = card.location;
   cardInfo.appendChild(cardName);
 
   const cardContainer = makeElement("div", "location-card__container");

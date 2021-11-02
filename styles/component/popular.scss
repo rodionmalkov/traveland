@@ -25,7 +25,7 @@
   &__item:hover {
     transform: scale(1.01);
     box-shadow: 4px 4px 10px var(--shadow);
-    transition: linear 200ms;
+    transition: 1000ms;
   }
 
   &__photo-turkey {
